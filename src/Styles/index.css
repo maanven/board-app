@@ -1,0 +1,62 @@
+/* Heading Css */
+.topNav{
+    height: 80px;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+}
+
+/* Home Css */
+button.btn-primary{
+    display: grid;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.error-label{
+    color: #DD5050;
+    text-align: center;
+    margin-top: 10px;
+}
+/* Board Css */
+
+.topSpacing{
+    margin-top : 80px !important;
+}
+.centerContent{
+    display: grid;
+    justify-content: center;
+}
+.backIcon{
+    color: #000 !important;
+    height: 50px;
+    width: 40px;
+    margin-left: 40px;
+}
+.initial{
+    height: 50px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    max-width: fit-content;
+}
+div.initial:first-child{
+    border-top: 1px solid black;
+}
+div.initial:last-child .box{
+    border-bottom: 1px solid black;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    min-height: 10px;
+    min-width: 10px;
+    display: inline-block;
+}
+.colored{
+    background-color: #000;
+}
+.blank{
+    background-color: #fff;
+}
