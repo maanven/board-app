@@ -20,7 +20,7 @@ function Home(){
     //Function to check the entered value is a number or not
     const handleChange = (e) => {
         setInitialLoad(false);
-        if(isNaN(e.target.value) || e.target.value < 2)
+        if(isNaN(e.target.value) || e.target.value < 2 || e.target.value > 31)
         {   
             setError(true);
         }   
@@ -38,7 +38,7 @@ function Home(){
                 </div>
                 <div className="col-md-6">
                     <FormGroup as ={Row}>
-                        <Form.Label column sm="3">Enter the value of n (greater than 1): </Form.Label>
+                        <Form.Label column sm="3">Enter the value of n (between 2 and 31): </Form.Label>
                         <Col sm="9">
                             <Form.Control type='text' placeholder="0" onChange={(e)=>handleChange(e)} ></Form.Control>
                             <Form.Label className='error-label' style={{display : error ? 'block' : 'none'}}> Invalid Value </Form.Label>
