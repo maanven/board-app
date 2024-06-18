@@ -8,7 +8,7 @@ import Menu from './Menu';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/board-app'>
       <Menu />
       <Routes>
         <Route path="/" element={<Home />} />
