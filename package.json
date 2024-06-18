@@ -1,5 +1,6 @@
 {
   "name": "chess-board",
+  "homepage": "https://maanven.github.io/board-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
